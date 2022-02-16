@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_empalmes_fo">
+
+    <fragment
+        android:id="@+id/nav_empalmes_fo"
+        android:name="com.example.red_fibraoptica.ui.empalmes.EmpalmesFragment"
+        android:label="@string/menu_empalme"
+        tools:layout="@layout/fragment_empalmes_list">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.red_fibraoptica.ui.empalmes.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_empalmes_fo" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_grupo_mtto"
+        android:name="com.example.red_fibraoptica.ui.grupo_mantenimiento_f_o.GrupoMttoFragment"
+        android:label="@string/menu_grupomtto"
+        tools:layout="@layout/fragment_grupo_mtto" />
+
+    <fragment
+        android:id="@+id/nav_radiobases"
+        android:name="com.example.red_fibraoptica.ui.radio_bases.RadioBasesFragment"
+        android:label="@string/menu_radiobases"
+        tools:layout="@layout/fragment_radio_bases" />
+    <fragment
+        android:id="@+id/nav_cliente_corporativos"
+        android:name="com.example.red_fibraoptica.ui.clientes_corporativos.ClienteCorpoFragment"
+        android:label="@string/menu_cliente_corpo"
+        tools:layout="@layout/cliente_corpo_fragment" />
+    <fragment
+        android:id="@+id/nav_tramos"
+        android:name="com.example.red_fibraoptica.ui.tramos.TramosFragment"
+        android:label="tramos_fragment"
+        tools:layout="@layout/tramos_fragment" />
+</navigation>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Red_FibraOptica</string>
+    <string name="title_usuario">Usuario</string>
+    <string name="title_password">Contraseña</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="title_registra">Si no tienes cuenta ¡Registrate Aqui!!!</string>
+    <string name="title_activity_main_principal">MainPrincipal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_empalme">Empalmes f.O.</string>
+    <string name="menu_grupomtto">Registrar grupo mtto</string>
+    <string name="menu_radiobases">Radio bases</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="edtnombreGM">nombre grupo mtto</string>
+    <string name="edtproyecto">Proyecto</string>
+    <string name="edtempresa">Nombre empresa</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="edtNombrerbs">Radio bases</string>
+    <string name="edtcitio">Citio</string>
+    <string name="edtpropietario">"Propietario "</string>
+    <string name="edtubicacionrbs">Ubicacion o Cordenadas</string>
+    <string name="txtSeleccionGM">Seleccione  </string>
+    <string name="txtSeleccioneRegional">Seleccione Regional:</string>
+    <string name="edtIdgm">id grupo mtto</string>
+    <string name="menu_cliente_corpo">Corporativos Clientes</string>
+    <string name="edtidrbscliente">introdusca id de la rbs</string>
+    <string name="edtnombreCliente">Nombre cliente</string>
+    <string name="edtodfcliente">que odf es?</string>
+    <string name="edthilorx">numero hilo RX</string>
+    <string name="edthilotx">numero de hilo TX</string>
+    <string name="edtLongitudcliente">Longitud en KM</string>
+    <string name="edtDetalleCliente">Detalle u Observacion</string>
+    <string name="menu_tramo">Tramo Mtto</string>
+    <string name="edtNombretramo">Nombre tramo</string>
+    <string name="ditanciaTramo">Distancia tramo</string>
+    <string name="putnoA">Punto A</string>
+    <string name="puntoB">Punto B</string>
+    <string name="nombre_empalme">Nombre Empalme </string>
+    <string name="distancia_empalme">Distancia </string>
+    <string name="numero_poste">Numero de poste </string>
+    <string name="cordenada_empalme">Cordenadas </string>
+    <string name="nuevoempalme">add empalmes</string>
+</resources>

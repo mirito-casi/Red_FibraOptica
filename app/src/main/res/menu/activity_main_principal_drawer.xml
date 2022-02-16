@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_empalmes_fo"
+            android:icon="@drawable/ic_empalme_black_24dp"
+            android:title="@string/menu_empalme" />
+        <item
+            android:id="@+id/nav_grupo_mtto"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/menu_grupomtto" />
+        <item
+            android:id="@+id/nav_radiobases"
+            android:icon="@drawable/ic_settings_input_antenna_black_24dp"
+            android:title="@string/menu_radiobases" />
+        <item
+            android:id="@+id/nav_cliente_corporativos"
+            android:icon="@drawable/ic_clientes_black_24dp"
+            android:title="@string/menu_cliente_corpo"/>
+        <item
+            android:id="@+id/nav_tramos"
+            android:icon="@drawable/ic_tramo_black_24dp"
+            android:title="@string/menu_tramo"/>
+    </group>
+
+</menu>

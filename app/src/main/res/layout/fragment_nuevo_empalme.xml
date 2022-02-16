@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_buton"
+    android:padding="5dp"
+    tools:context=".ui.empalmes.NuevoEmpalmeFragment">
+
+    <EditText
+        android:id="@+id/edtIdTramoEmpalme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="id tramo"
+        android:inputType="number|textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edtNombreEmpalme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edtNombreEmpalme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint=" empalme"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/edtDistanciaEmpalme"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtIdTramoEmpalme" />
+
+        <EditText
+            android:id="@+id/edtDistanciaEmpalme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="distancia"
+            android:inputType="textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtNombreEmpalme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/edtNombreEmpalme"
+            app:layout_constraintTop_toTopOf="@+id/edtNombreEmpalme" />
+
+        <EditText
+            android:id="@+id/edtNumPoste"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="numero poste"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/edtNombreEmpalme"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtNombreEmpalme" />
+
+        <EditText
+            android:id="@+id/edtTipoCajaEmpalme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="tipo de caja"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtNumPoste" />
+
+        <EditText
+            android:id="@+id/edtCordenadaEmpalme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="cordenada"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtTipoCajaEmpalme" />
+
+    <EditText
+        android:id="@+id/edtDetalleEmpalme"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/edtDetalleCliente"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCordenadaEmpalme" />
+</androidx.constraintlayout.widget.ConstraintLayout>

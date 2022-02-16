@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00E3E3</color>
+    <color name="colorPrimaryDark">#159292</color>
+    <color name="colorAccent">#F3AE23</color>
+
+    <color name="color_amarillo_claro">#ffdd4b</color>
+    <color name="color_azul_claro">#8f9bff</color>
+    <color name="color_azul_fuerte">#0043cb</color>
+    <color name="color_white">#000000</color>
+
+    --colores de prueba--
+    <color name="color_primary_0">#226666</color>
+    <color name="color_primary_1">#00E3E3</color>
+    <color name="color_primary_2">#159292</color>
+    <color name="color_primary_3">#1E3A3A</color>
+    <color name="color_primary_4">#0A0E0E</color>
+
+    <color name="color_secund_1_0">#AA8439</color>
+    <color name="color_secund_1_1">#FFAA00</color>
+    <color name="color_secund_1_2">#F3AE23</color>
+    <color name="color_secund_1_3">#615133</color>
+    <color name="color_secund_1_4">#171511</color>
+
+    <color name="color_secund_2_0">#AA3939</color>
+    <color name="color_secund_2_1">#FF0000</color>
+    <color name="color_secund_2_2">#F32323</color>
+    <color name="color_secund_2_3">#613333</color>
+    <color name="color_secund_2_4">#171111</color>
+
+
+</resources>

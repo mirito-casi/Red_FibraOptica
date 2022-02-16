@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regionales_bolivia">
+        <item>Sucre</item>
+        <item>Potosi</item>
+        <item>Oruro</item>
+        <item>La Paz</item>
+        <item>Cochabamba</item>
+        <item>Santa Cruz</item>
+        <item>Beni</item>
+        <item>Pando</item>
+        <item>Tarija</item>
+    </string-array>
+</resources>
